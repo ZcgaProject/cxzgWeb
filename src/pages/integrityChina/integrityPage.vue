@@ -513,6 +513,12 @@
                     }) .catch(error => {
                         console.log(error)
                     })
+                        configuration.jiazai().then(res => {
+                            this.zongHe = this.zongHe.concat(res.data.zongHeTwo)
+                            // this.iisfonttwo=false
+                        }) .catch(error => {
+                            console.log(error)
+                        })
                 },1000)
             },
             jiazaiMoreYw(){
