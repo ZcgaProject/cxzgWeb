@@ -41,7 +41,9 @@
                  <img style="width: 90%;height: 80%" src="../../assets/integrityChina/4.png" alt="">
             </span>
         </div>
-        <div class="intergrityBox_tab"></div>
+        <div class="intergrityBox_tab">
+            <img style="width: 100%;height: 100%" src="../../assets/integrityChina/5.png" alt="">
+        </div>
         <div class="intergrityBox_xin">
             <div class="xinBox" @click="xinBox">
                 <div class="xinBox_img">
@@ -278,7 +280,7 @@
                         borderColor:'',
                         location:'http://www.xinhuanet.com/expo/zt/sjppcx/index.htm'
                     }
-                    ],
+                ],
                 yaoWen:[
                     {
                         imgid:'13.jpg',
@@ -495,9 +497,9 @@
                         this.ziXun = this.ziXun.concat(res.data.ziXunTwo)
                         // this.iisfonttwo=false
                     }) .catch(error => {
-                    console.log(error)
+                        console.log(error)
                     })
-                 },1000)
+                },1000)
             },
             jiazaiMoreZh(){
                 this.iisfontZh = false
@@ -505,12 +507,12 @@
                 setTimeout(() =>{
                     this.iisfonttwoZh = false
                     this.iisfontthrZh = true,
-                    configuration.jiazai().then(res => {
-                        this.zongHe = this.zongHe.concat(res.data.zongHeTwo)
-                        // this.iisfonttwo=false
-                    }) .catch(error => {
-                        console.log(error)
-                    })
+                        configuration.jiazai().then(res => {
+                            this.zongHe = this.zongHe.concat(res.data.zongHeTwo)
+                            // this.iisfonttwo=false
+                        }) .catch(error => {
+                            console.log(error)
+                        })
                 },1000)
             },
             jiazaiMoreYw(){

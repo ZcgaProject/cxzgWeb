@@ -94,8 +94,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../../assets/integrityChina/5.png") no-repeat center;
-    background-size: 100% 100%;
+    /*background: url("../../assets/integrityChina/5.png") no-repeat center;*/
+    /*background-size: 100% 100%;*/
     background-color: #ffffff;
 }
 .intergrityBox_xin{
@@ -133,7 +133,7 @@
     /*background-color: #ff976a;*/
 }
 .xinBox_font span{
-    font-size: 0.20rem;
+    font-size: 0.26rem;
 }
 .swiperSheet{
     width: 100%;
@@ -201,7 +201,7 @@
     /*background-color: aquamarine;*/
 }
 .xinLineBox_font{
-    font-size: 0.24rem;
+    font-size: 0.28rem;
     font-weight: 400;
     color: #1f0b0b;
 }
@@ -249,11 +249,11 @@
 }
 .tuiBox_navright{
     width: 71%;
-    height: 90%;
+    height: 73%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 0.26rem;
+    font-size: 0.28rem;
     font-weight: 400;
     color: #1f0b0b;
     text-align: left;
@@ -338,7 +338,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 0.26rem;
+    font-size: 0.28rem;
     font-weight: 400;
     text-align: left;
     color: #1f0b0b;
@@ -447,7 +447,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 0.26rem;
+    font-size: 0.28rem;
     font-weight: 400;
     text-align: left;
     color: #1f0b0b;
@@ -523,9 +523,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 0.24rem;
+    font-size: 0.28rem;
     color: #000000;
     font-weight: 400;
+    text-align: left;
     /*background-color: rosybrown;*/
 }
 .nameCardFooterbottom{
