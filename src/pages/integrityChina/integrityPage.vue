@@ -205,6 +205,9 @@
         </div>
             <span>中创国安   投诉热线：400-838-5198 　</span>
         </div>
+        <div style="height: 0.6rem" class="nameCardFooterbottom">
+            <span @click="beianhao">ICP备案号：琼ICP备19004493号-1</span>
+        </div>
     </div>
 </template>
 
@@ -534,6 +537,9 @@
                             console.log(error)
                         })
                 },1000)
+            },
+            beianhao(){
+                location.href = 'http://www.beian.miit.gov.cn/'
             }
         }
     }
